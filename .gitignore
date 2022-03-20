@@ -1,0 +1,16 @@
+
+*.bak
+
+*.sav
+
+*.gz
+
+*.log
+
+*.blg
+
+*.bbl
+
+*.aux
+
+brief-template.pdf

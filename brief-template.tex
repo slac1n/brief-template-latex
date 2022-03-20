@@ -1,0 +1,24 @@
+\documentclass[fromemail=true,fromphone=true]{scrlttr2}
+\usepackage[ngerman]{babel}
+ 
+\setkomavar{fromname}{Max Mustermann}
+\setkomavar{fromaddress}{Max-Musterfrau-Str. 42a\\ 12345 Musterstadt}
+\setkomavar{fromemail}{musterfrau@mustermann.com}
+\setkomavar{fromphone}{01234 12345}
+\setkomavar{yourref}{Zeichen 123}
+\setkomavar{yourmail}{01.12.2021}
+\setkomavar{subject}{Betreff}
+\setkomavar{myref}{Zeichen 456}
+\setkomavar{date}{\today}
+ 
+\begin{document}
+\begin{letter}{Frau Müller\\ Müllerring 1 \\ 12345 Musterstadt}
+\opening{Sehr geehrte Frau Müller,}
+ 
+hiermit schreibe ich Ihnen einen Brief.
+
+\closing{Mit freundlichen Grüßen,}
+\encl{Anlage A38}
+ 
+\end{letter}
+\end{document}
